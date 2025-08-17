@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#4CAF50"         # button, slider, checkbox highlight
+backgroundColor = "#F5F5F5"      # page background
+secondaryBackgroundColor = "#FFFFFF"  # sidebar / widget background
+textColor = "#333333"            # text color
+font = "sans serif"              # options: "sans serif", "serif", "monospace"

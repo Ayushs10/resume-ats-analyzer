@@ -1,0 +1,11 @@
+streamlit
+google-generativeai
+python-dotenv
+pdf2image
+Pillow
+PyPDF2
+plotly
+pandas
+rapidfuzz
+sentence-transformers
+torch
