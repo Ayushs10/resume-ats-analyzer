@@ -17,6 +17,10 @@ from rapidfuzz import fuzz, process
 from sentence_transformers import SentenceTransformer, util
 import streamlit as st
 
+# ---- Streamlit page config (must be the first Streamlit call) ----
+st.set_page_config(page_title="ATS Resume Expert", layout="wide", page_icon="📄")
+
+
 st.markdown("""
 <style>
 /* ====== App background ====== */
@@ -371,7 +375,6 @@ Output strictly in this Markdown structure:
     return resp.text
 
 # ===================== APP =====================
-st.set_page_config(page_title="ATS Resume Expert", layout="wide")
 st.header("ATS Tracking System")
 
 # Job Description with clear instructions
